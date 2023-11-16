@@ -4,7 +4,7 @@ let speedDisplay = document.getElementById("speed");
 let score = 0;
 let speed = 0;
 
-target.addEventListener("click", function() {
+target.addEventListener("touchstart", function() {
   // touchstart: dispositivos moviles y click: computadora
   score++;
   speed++;
